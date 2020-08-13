@@ -234,21 +234,21 @@ $(document).ready(() => {
     }
   })
 
-  $toggleDarkMode.change(() => {
-    if ($toggleDarkMode.is(':checked')) {
-      $('html').attr('data-theme', 'dark')
-      localStorage.setItem('theme', 'dark')
-    } else {
-      $('html').attr('data-theme', 'light')
-      localStorage.setItem('theme', 'light')
-    }
-  })
+  // $toggleDarkMode.change(() => {
+  //   if ($toggleDarkMode.is(':checked')) {
+  //     $('html').attr('data-theme', 'dark')
+  //     localStorage.setItem('theme', 'dark')
+  //   } else {
+  //     $('html').attr('data-theme', 'light')
+  //     localStorage.setItem('theme', 'light')
+  //   }
+  // })
 
-  $toggleDarkMode.hover(() => {
-    toggleDesktopTopbarOverflow(true)
-  }, () => {
-    toggleDesktopTopbarOverflow(false)
-  })
+  // $toggleDarkMode.hover(() => {
+  //   toggleDesktopTopbarOverflow(true)
+  // }, () => {
+  //   toggleDesktopTopbarOverflow(false)
+  // })
 
   $closeNotification.click(function () {
     closeNotification($(this).parent())
@@ -269,17 +269,18 @@ $(document).ready(() => {
     }
   })
 
-  if (currentSavedTheme) {
-    $('html').attr('data-theme', currentSavedTheme)
+  // $toggleDarkMode.attr('checked', false)
+  // if (currentSavedTheme) {
+  //   $('html').attr('data-theme', currentSavedTheme)
 
-    if (currentSavedTheme === 'dark') {
-      $toggleDarkMode.attr('checked', true)
-    }
-  } else {
-    if (isDarkMode()) {
-      $toggleDarkMode.attr('checked', true)
-    }
-  }
+  //   if (currentSavedTheme === 'dark') {
+  //     $toggleDarkMode.attr('checked', true)
+  //   }
+  // } else {
+  // if (isDarkMode()) {
+  //   $toggleDarkMode.attr('checked', true)
+  // }
+  // }
 
   if ($header.length > 0) {
     const headroom = new Headroom($header[0], {
