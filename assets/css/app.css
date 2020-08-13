@@ -2146,7 +2146,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   letter-spacing: 0.4px;
   line-height: 1.3;
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 900;
   margin: 0 0 15px;
 }
 @media only screen and (min-width: 48rem) {
@@ -2171,6 +2171,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   letter-spacing: 0.2px;
   line-height: 1.5;
   font-size: 0.938rem;
+  color: #85DEF7;
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 48rem) {
