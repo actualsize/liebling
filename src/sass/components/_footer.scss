@@ -15,10 +15,17 @@
   }
 }
 
+.m-footer-logo {
+  width: auto;
+  max-width: 200px;
+  height: 100%;
+}
+
 .m-footer-copyright {
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.75rem;
+  margin-top: $mobile-space;
   margin-bottom: $mobile-space;
 
   span {
