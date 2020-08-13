@@ -113,7 +113,6 @@
 .l-post-content h4,
 .l-post-content h5,
 .l-post-content h6 {
-  color: var(--titles-color);
   line-height: 1.3;
   font-weight: 700;
   padding-top: 5px;
@@ -131,6 +130,7 @@
   }
 }
 .l-post-content h1 {
+  color: #007CC4;
   font-size: 2.125rem;
 }
 @media only screen and (min-width: 48rem) {
@@ -140,6 +140,7 @@
 }
 .l-post-content h2 {
   font-size: 1.75rem;
+  color: #3E3693;
 }
 @media only screen and (min-width: 48rem) {
   .l-post-content h2 {
@@ -148,6 +149,7 @@
 }
 .l-post-content h3 {
   font-size: 1.375rem;
+  color: #28A400;
 }
 @media only screen and (min-width: 48rem) {
   .l-post-content h3 {
@@ -156,6 +158,7 @@
 }
 .l-post-content h4 {
   font-size: 1rem;
+  color: #28A400;
 }
 @media only screen and (min-width: 48rem) {
   .l-post-content h4 {
@@ -164,6 +167,7 @@
 }
 .l-post-content h5 {
   font-size: 0.938rem;
+  color: #28A400;
 }
 @media only screen and (min-width: 48rem) {
   .l-post-content h5 {

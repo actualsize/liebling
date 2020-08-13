@@ -539,7 +539,7 @@ textarea,
   --primary-subtle-color: #0470ee;
   --secondary-subtle-color: #f4f8fd;
   --titles-color: #333;
-  --link-color: #133467;
+  --link-color: #3E3693;
   --primary-border-color: #9b9b9b;
   --secondary-border-color: aliceblue;
   --article-shadow-normal: 0 10px 10px rgba(0,0,0,0.08);
@@ -1932,7 +1932,7 @@ fieldset {
   color: var(--titles-color);
   letter-spacing: 0.2px;
   line-height: 1.438rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 400;
   margin: 0 0 10px;
 }
@@ -1949,6 +1949,9 @@ fieldset {
   font-size: 0.813rem;
 }
 
+.m-tags {
+  text-transform: uppercase;
+}
 .m-tags.in-post {
   padding-top: 25px;
 }
@@ -2342,13 +2345,14 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   }
 }
 
-.m-heading__meta__tag,
-.m-heading__meta__time {
+.m-heading__meta__tag {
   color: var(--link-color) !important;
 }
 
 .m-heading__meta__tag {
   text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 0.85rem;
 }
 
 .m-heading__meta__divider {
@@ -2565,7 +2569,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 
 .m-article-card__tag {
   position: absolute;
-  color: #3E3693;
+  color: var(--link-color);
   text-transform: uppercase;
   top: 20px;
   left: 20px;

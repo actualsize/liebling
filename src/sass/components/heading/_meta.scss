@@ -11,13 +11,14 @@
   }
 }
 
-.m-heading__meta__tag,
-.m-heading__meta__time {
+.m-heading__meta__tag {
   color: var(--link-color) !important;
 }
 
 .m-heading__meta__tag {
   text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 0.85rem;
 }
 
 .m-heading__meta__divider {

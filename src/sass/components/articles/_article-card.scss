@@ -217,7 +217,7 @@
 
 .m-article-card__tag {
   position: absolute;
-  color: #3E3693;
+  color: var(--link-color);
   text-transform: uppercase;
   top: $mobile-space;
   left: $mobile-space;
